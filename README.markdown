@@ -18,23 +18,19 @@ Requirements
 Building
 --------
 
-Run
+To build the executable, run:
 
-...
-mvn clean package
-...
+    mvn clean package
 
 to create the self-executable JAR target/entropyviewer.jar
 
 Running
 -------
 
-...
-java -jar target/entropyviewer.jar [options] [file]
-...
+To run the executable:
+
+    java -jar target/entropyviewer.jar [options] [file]
 
 Command-Line arguments are:
 
-...
- [-v|--verbose] [--help|-help] [--window-size  <size in bytes>] [--window-stride <stride in bytes>] <filename>
-...
+    [-v|--verbose] [--help|-help] [--window-size  <size in bytes>] [--window-stride <stride in bytes>] <filename>
